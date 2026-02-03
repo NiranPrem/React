@@ -1,0 +1,11 @@
+.custom-dialog .p-dialog-header {
+  padding: 0.5rem !important;
+}
+
+.custom-dialog .p-dialog-content {
+  padding: 0 1rem 1rem 1rem !important;
+}
+
+.custom-dialog .p-dialog-footer {
+  padding: 0 1rem 1rem 1rem;
+}

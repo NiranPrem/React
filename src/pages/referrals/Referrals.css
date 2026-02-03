@@ -1,0 +1,36 @@
+.p-carousel-prev,
+.p-carousel-next {
+  background: #fff;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+  color: #181818;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  background: #f6f6f6;
+}
+
+.p-tabmenu .p-tabmenu-nav {
+  background: #f6f6f6;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+  border-color: #2d4f9f;
+  color: #2d4f9f;
+}
+
+/* Remove the full tab menu bottom border */
+.p-tabmenu-nav {
+  border-bottom: none !important;
+}
+
+/* Remove bottom border for all tabs */
+.p-tabmenu-nav > li {
+  border-bottom: none !important;
+}
+
+/* Keep the active tab bottom border */
+.p-tabmenu-nav > li.p-highlight {
+  border-bottom: 2px solid #2d4f9f !important; /* or your brand color */
+}

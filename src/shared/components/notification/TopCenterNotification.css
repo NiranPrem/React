@@ -1,0 +1,40 @@
+.top-center-notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px); /* initial state: slide up a bit */
+  opacity: 0; /* initial state: invisible */
+  pointer-events: none;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  min-width: 320px;
+  max-width: 600px;
+  padding: 12px 24px;
+  border-radius: 5px;
+
+  background: #76db9b;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  z-index: 1050;
+
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.top-center-notification .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-center-notification.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0); /* animate to normal position */
+  pointer-events: auto;
+}

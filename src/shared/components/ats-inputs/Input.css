@@ -1,0 +1,91 @@
+.p-autocomplete-multiple-container {
+  display: block;
+}
+
+.ql-toolbar.ql-snow {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.ql-toolbar.ql-snow+.ql-container.ql-snow {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.react-tel-input .form-control {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-radius: 6px !important;
+  padding-left: 55px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  padding: 10px 5px !important;
+  background-color: #f6f6f6 !important;
+  border: none !important;
+  border-radius: 6px 0 0 6px !important;
+  top: 1px !important;
+  bottom: 1px !important;
+  left: 1px !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: #f6f6f6 !important;
+}
+
+.ql-container {
+  font-family: var(--font-family) !important;
+  font-size: 1rem !important;
+  color: #4b5563 !important;
+}
+
+.focus\:border-blue-500 {
+  &:focus {
+    border-color: var(--color-blue-500) !important;
+  }
+
+  &:hover {
+    border-color: var(--color-blue-500) !important;
+  }
+}
+
+/* Style the toolbar on hover */
+.p-editor-container:hover .ql-toolbar.ql-snow {
+  border-color: var(--color-blue-500) !important;
+}
+
+/* Style the editor area on hover */
+.p-editor-container:hover .ql-container.ql-snow {
+  border-color: var(--color-blue-500) !important;
+}
+
+.p-datepicker {
+  top: 50px !important;
+}
+
+/* Red border for invalid date fields - matching text field style */
+/* Exclude disabled states - disabled fields should have default border color */
+.p-calendar.p-invalid .p-inputtext:not(:disabled),
+.p-calendar.p-invalid input:not(:disabled) {
+  border-color: #ef4444 !important;
+}
+
+/* .p-calendar.p-invalid .p-inputtext:not(:disabled):enabled:hover,
+.p-calendar.p-invalid input:not(:disabled):enabled:hover {
+  border-color: #ef4444 !important;
+}
+
+.p-calendar.p-invalid .p-inputtext:not(:disabled):enabled:focus,
+.p-calendar.p-invalid input:not(:disabled):enabled:focus {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 0.2rem rgba(239, 68, 68, 0.2) !important;
+} */
+
+/* Cursor style for disabled dates */
+.p-datepicker table td.p-disabled,
+.p-datepicker table td.p-disabled>span,
+.p-datepicker .p-disabled {
+  cursor: not-allowed !important;
+  pointer-events: auto !important;
+}

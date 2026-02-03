@@ -1,0 +1,86 @@
+.rbc-overlay {
+  z-index: 9999 !important;
+  background: white;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.rbc-show-more {
+  color: #ffffff;
+  cursor: pointer;
+  background: #0d47a1;
+  width: 99.5%;
+  text-align: start;
+  padding: 4px;
+}
+
+.rbc-show-more:hover,
+.rbc-show-more:focus {
+  color: #c6d2d9;
+}
+
+.rbc-event:hover,
+.rbc-event:focus {
+  background-color: #f6f6f6 !important;
+}
+
+/* Applies pointer cursor to all day cells in the month view */
+.rbc-month-view .rbc-day-bg,
+.rbc-month-view .rbc-date-cell,
+.rbc-month-view .rbc-day-slot,
+.rbc-month-row,
+.rbc-date-cell {
+  cursor: pointer;
+}
+
+/* Applies pointer cursor to week/day time slots */
+.rbc-time-view .rbc-time-slot,
+.rbc-time-view .rbc-day-slot {
+  cursor: pointer;
+  background-color: #f0faff;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px #0d47a1;
+  box-shadow: inset 0 3px 5px #0d47a1;
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+  color: #ffffff;
+}
+
+.rbc-toolbar button:active:hover,
+.rbc-toolbar button:active:focus,
+.rbc-toolbar button.rbc-active:hover,
+.rbc-toolbar button.rbc-active:focus {
+  color: #ffffff;
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+}
+
+/* Cursor style for week/day view headers */
+.rbc-time-header-content .rbc-header,
+.rbc-time-header-content .rbc-allday-cell {
+  cursor: pointer !important;
+}
+
+/* Past events cursor */
+/* Past events cursor */
+.rbc-past-day,
+.rbc-past-slot,
+.rbc-time-view .rbc-time-header-content .rbc-past-day {
+  cursor: not-allowed !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure past day overrides standard header pointer */
+.rbc-time-header-content .rbc-header.rbc-past-day,
+.rbc-time-header-content .rbc-allday-cell.rbc-past-day {
+  cursor: not-allowed !important;
+}
+
+body.hide-rbc-overlay .rbc-overlay {
+  display: none !important;
+}

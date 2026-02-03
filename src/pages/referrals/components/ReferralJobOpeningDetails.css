@@ -1,0 +1,13 @@
+.ql-editor {
+  text-align: left !important;
+}
+
+.ql-editor p,
+.ql-editor ol,
+.ql-editor ul {
+  text-align: left !important;
+}
+
+.ql-editor ol {
+    padding-left: 0em;
+}

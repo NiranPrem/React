@@ -1,0 +1,33 @@
+.p-accordion .p-accordion-tab {
+	margin-bottom: 1rem;
+}
+
+.filter-checkbox.p-checkbox .p-checkbox-box {
+	border-radius: 0 !important;
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	background: transparent !important;
+}
+
+/* Specific styling for the active (open) tab */
+.p-accordion
+	.p-accordion-tab-active
+	.p-accordion-header
+	.p-accordion-header-link {
+	border-bottom: none !important;
+}
+
+.p-accordion .p-accordion-tab-active .p-accordion-content {
+	border-top: none !important;
+}
+
+/* Ensure the icon doesn't rotate by default */
+.p-accordion
+	.p-accordion-header
+	.p-accordion-header-link
+	.p-accordion-toggle-icon {
+	transform: none !important;
+}

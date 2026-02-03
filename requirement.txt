@@ -1,0 +1,8 @@
+npm i @reduxjs/toolkit @tailwindcss/vite autoprefixer axios lucide-react primeicons primereact react-redux react-router-dom redux-saga tailwindcss i18next i18next-browser-languagedetector react-i18next
+npm install vitest @testing-library/react @testing-library/jest-dom jsdom
+npm i react-phone-input-2 react-select @azure/msal-react @azure/msal-browser @microsoft/signalr     
+npm i --save-dev @types/react-big-calendar  
+npm install react-big-calendar date-fns   
+npm install quill
+        
+

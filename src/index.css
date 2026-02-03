@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: #181818;
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+}
+
